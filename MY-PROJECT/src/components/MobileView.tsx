@@ -1,5 +1,6 @@
-import React, { useEffect, useRef, useState ,JSX } from "react";
-import lodash from "lodash";
+import React, { useEffect, useRef, useState, JSX } from "react";
+import { throttle } from "lodash";
+
 import {
   Mail,
   Phone,
@@ -12,7 +13,6 @@ import {
   Server,
   Layout,
 } from "lucide-react";
-import { throttle } from "lodash";
 import { content } from "../data/mobilecontent"; // Adjust the import path as needed
 
 // Define TypeScript interfaces for content
@@ -80,24 +80,21 @@ const MobileView: React.FC = () => {
 
   // Skill icons mapping
   const skillIcons: Record<string, JSX.Element> = {
-    frontend: <Layout size={24} />,
-    backend: <Server size={24} />,
-    database: <Database size={24} />,
-    other: <Code size={24} />,
+    frontend: <Layout size={20} />,
+    backend: <Server size={20} />,
+    database: <Database size={20} />,
+    other: <Code size={20} />,
   };
 
   const getSkillIcon = (category: string) => {
-    if (!skillIcons[category]) {
-      console.warn(`Unknown skill category: ${category}`);
-    }
-    return skillIcons[category] || <Code size={24} />;
+    return skillIcons[category] || <Code size={20} />;
   };
 
   // Social icons mapping
   const socialIcons: Record<string, JSX.Element> = {
-    github: <Github size={20} />,
-    linkedin: <Linkedin size={20} />,
-    twitter: <Twitter size={20} />,
+    github: <Github size={16} />,
+    linkedin: <Linkedin size={16} />,
+    twitter: <Twitter size={16} />,
   };
 
   return (
@@ -124,7 +121,6 @@ const MobileView: React.FC = () => {
         }}
         className="section hero-section"
       >
-        <div className="hero-bg" />
         <div className="hero-content">
           <img
             src="/avatar.webp"
@@ -165,7 +161,7 @@ const MobileView: React.FC = () => {
             sectionsRef.current[2] = el;
           }
         }}
-        className="section"
+        className="section project-section"
       >
         <h2 className="section-title">Projects</h2>
         {content.projects.map((project, index) => (
@@ -183,7 +179,7 @@ const MobileView: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              View Project <ExternalLink size={16} />
+              View Project <ExternalLink size={14} />
             </a>
           </div>
         ))}
@@ -196,13 +192,13 @@ const MobileView: React.FC = () => {
             sectionsRef.current[3] = el;
           }
         }}
-        className="section"
+        className="section contact-section"
       >
         <h2 className="section-title">Contact</h2>
         <div className="contact-list">
           <div className="contact-item">
             <div className="contact-icon">
-              <Mail size={20} />
+              <Mail size={16} />
             </div>
             <div>
               <div className="contact-label">Email</div>
@@ -211,7 +207,7 @@ const MobileView: React.FC = () => {
           </div>
           <div className="contact-item">
             <div className="contact-icon">
-              <Phone size={20} />
+              <Phone size={16} />
             </div>
             <div>
               <div className="contact-label">Phone</div>
@@ -230,7 +226,7 @@ const MobileView: React.FC = () => {
               rel="noopener noreferrer"
             >
               <div className="contact-icon">
-                {socialIcons[platform] || <ExternalLink size={20} />}
+                {socialIcons[platform] || <ExternalLink size={16} />}
               </div>
               <span className="capitalize">{platform}</span>
             </a>

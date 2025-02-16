@@ -18,7 +18,7 @@ const Terminal: React.FC = () => {
   const commands = {
     help: () => `Available commands:
 ═══════════════════
-about     - Learn about me
+about     - Learn about me   
 skills    - View my technical skills
 projects  - See my projects
 contact   - Get my contact info
@@ -150,3 +150,4 @@ Humidity: 45%`,
 };
 
 export default Terminal;
+
