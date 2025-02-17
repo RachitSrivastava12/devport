@@ -22,7 +22,7 @@ const MobilePortfolio: React.FC = () => {
       <section className="p-8 bg-white dark:bg-gray-800">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-gray-700 dark:text-gray-300">
-          I’m a Full Stack Web Developer who loves building server-side applications, with
+          I’m a Full Stack Web Developer who loves building scalable and user-friendly applications, with
           a keen interest in Web3 and blockchain technologies.
         </p>
       </section>
