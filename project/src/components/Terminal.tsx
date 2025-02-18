@@ -206,12 +206,6 @@ Added .env configuration and real-time logging with Morgan.</p>
             https://x.com/Rachit_twts
             </a>
           </div>
-          <div className="flex items-center gap-2">
-            <Globe className="w-4 h-4" />
-            <a href="https://johndoe.dev" className="hover:underline">
-              johndoe.dev
-            </a>
-          </div>
         </div>
       ),
      
