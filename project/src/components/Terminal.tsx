@@ -82,11 +82,27 @@ const Terminal: React.FC = () => {
         <div className="text-purple-400">
           <h3 className="font-bold mb-4">Featured Projects:</h3>
           
+           <div className="mb-6">
+            <h4 className="font-semibold">Solana Blockchain Explorer</h4>
+            <p className="mb-2">Developed a Solana Explorer with real-time transaction and block data.</p>
+            <div className="mt-2">
+              <a href="https://github.com/RachitSrivastava12/SolanaExplorer" className="text-blue-400 hover:underline">GitHub</a>
+            </div>
+          </div>
+
           <div className="mb-6">
-            <h4 className="font-semibold">The Whiteboard</h4>
+            <h4 className="font-semibold">The Blackboard</h4>
             <p className="mb-2">This application enables users to draw, save, and manage their creations using various tools and features. Below are details about the tech stack, features, future enhancements, requirements for running the app locally, and major learnings from developing this engaging application.</p>
             <div className="mt-2">
               <a href="https://github.com/RachitSrivastava12/BNGYA" className="text-blue-400 hover:underline">GitHub</a>
+            </div>
+          </div>
+
+         <div className="mb-6">
+            <h4 className="font-semibold">Portfolio Builder</h4>
+            <p className="mb-2">Portfolio Builder allowing users to create portfolios using form inputs and templates. Built using ReactJS(Typescript).</p>
+            <div className="mt-2">
+              <a href="https://github.com/RachitSrivastava12/BYP" className="text-blue-400 hover:underline">GitHub</a>
             </div>
           </div>
           
