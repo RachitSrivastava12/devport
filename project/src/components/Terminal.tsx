@@ -229,7 +229,7 @@ Added .env configuration and real-time logging with Morgan.</p>
         <div className="text-green-400">
           <p className="mb-4">Download my resume in PDF format:</p>
           <a
-            href="https://drive.google.com/file/d/1r_D7nwMBlwT5JQhToJjU0SO13D7FAG_O/view"
+            href="https://drive.google.com/file/d/1r_D7nwMBlwT5JQhToJjU0SO13D7FAG_O/view?usp=sharing"
             className="inline-flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
           >
             Download Resume
