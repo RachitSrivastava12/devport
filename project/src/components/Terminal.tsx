@@ -287,7 +287,7 @@ Added .env configuration and real-time logging with Morgan.</p>
         {commands.map((cmd, i) => (
           <div key={i} className="mt-4">
             <div className="flex items-center gap-2">
-              <span className="text-terminal-prompt">guest@portfolio</span>
+              <span className="text-terminal-prompt">Rachit@portfolio</span>
               <span className="text-gray-400">:</span>
               <span className="text-purple-400">~</span>
               <span className="text-gray-400">$</span>
