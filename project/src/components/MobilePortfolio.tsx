@@ -140,9 +140,10 @@ const MobilePortfolio: React.FC = () => {
 
           {/* Project 4 */}
           <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Customer Support Automation</h3>
+            <h3 className="text-xl font-semibold mb-2">Course Management Api</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              A system designed to manage customer data and support tickets using Node.js, Express.js, MongoDB, GraphQL, and Dialogflow.
+              Built a GraphQL API with TypeScript, Node.js, and Apollo Server.
+Used MongoDB for data storage with modular architecture
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 rounded">React</span>
@@ -151,7 +152,7 @@ const MobilePortfolio: React.FC = () => {
               <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-white rounded">GraphQL</span>
               <span className="px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-100 rounded">Dialogflow</span>
             </div>
-            <a href="https://github.com/RachitSrivastava12/CSA" className="text-blue-500 hover:text-blue-600 flex items-center gap-1">
+            <a href="https://github.com/RachitSrivastava12/CourseManagementApi" className="text-blue-500 hover:text-blue-600 flex items-center gap-1">
               <Github className="w-4 h-4" /> GitHub
             </a>
           </div>
