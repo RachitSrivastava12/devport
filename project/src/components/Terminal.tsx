@@ -54,7 +54,7 @@ const Terminal: React.FC = () => {
           
           <div className="mb-4">
             <h4 className="font-semibold">Programming Languages:</h4>
-            <p>JavaScript, TypeScript, Python, Rust(basics)</p>
+            <p>JavaScript, TypeScript, Python, Rust</p>
           </div>
           
           <div className="mb-4">
@@ -78,74 +78,105 @@ const Terminal: React.FC = () => {
           </div>
         </div>
       ),
-      'projects': (
-        <div className="text-purple-400">
-          <h3 className="font-bold mb-4">Featured Projects:</h3>
-          
-           <div className="mb-6">
-            <h4 className="font-semibold">Solana Blockchain Explorer</h4>
-            <p className="mb-2">Developed a Solana Explorer with real-time transaction and block data.</p>
-            <div className="mt-2">
-              <a href="https://github.com/RachitSrivastava12/SolanaExplorer" className="text-blue-400 hover:underline">GitHub</a>
-            </div>
-          </div>
+     'projects': (
+  <div className="text-purple-400">
+    <h3 className="font-bold mb-4">Featured Projects:</h3>
 
-          <div className="mb-6">
-            <h4 className="font-semibold">The Blackboard</h4>
-            <p className="mb-2">This application enables users to draw, save, and manage their creations using various tools and features. Below are details about the tech stack, features, future enhancements, requirements for running the app locally, and major learnings from developing this engaging application.</p>
-            <div className="mt-2">
-              <a href="https://github.com/RachitSrivastava12/BNGYA" className="text-blue-400 hover:underline">GitHub</a>
-            </div>
-          </div>
+    {/* Finished Projects */}
+    <div className="mb-6">
+      <h4 className="font-semibold">Solana Blockchain Explorer</h4>
+      <p className="mb-2">Developed a Solana Explorer with real-time transaction and block data.</p>
+      <div className="mt-2">
+        <a href="https://github.com/RachitSrivastava12/SolanaExplorer" className="text-blue-400 hover:underline">GitHub</a>
+      </div>
+    </div>
 
-         <div className="mb-6">
-            <h4 className="font-semibold">Portfolio Builder</h4>
-            <p className="mb-2">Portfolio Builder allowing users to create portfolios using form inputs and templates. Built using ReactJS(Typescript).</p>
-            <div className="mt-2">
-              <a href="https://github.com/RachitSrivastava12/BYP" className="text-blue-400 hover:underline">GitHub</a>
-            </div>
-          </div>
-          
-          <div className="mb-6">
-            <h4 className="font-semibold">Customer Support Automation</h4>
-            <p className="mb-2">This project is a Customer Support Automation system designed to manage customer data and support tickets using Node.js, Express.js, MongoDB, GraphQL, and Dialogflow technologies. It aims to streamline customer support processes and improve response times.</p>
-            <div className="mt-2">
-              <a href="https://github.com/RachitSrivastava12/AutomateCustomer" className="text-blue-400 hover:underline">GitHub</a>
-            </div>
-          </div>
-          <div className="mb-6">
-            <h4 className="font-semibold">Crypto Price Tracker</h4>
-            <p className="mb-2">CryptoWatch: Your Real-Time Cryptocurrency Price Tracker" Description: Stay ahead of the market with CryptoWatch, offering live updates on cryptocurrency prices, trends, and market movements, ensuring you never miss a beat in the fast-paced crypto world.</p>
-            <div className="mt-2">
-              <a href="https://github.com/RachitSrivastava12/Crypto-Price-Tracker" className="text-blue-400 hover:underline">GitHub</a>
-            </div>
-          </div>
-          <div className="mb-6">
-            <h4 className="font-semibold">Transaction Management Api</h4>
-            <p className="mb-2">Developed a GraphQL API with TypeScript, Node.js, and PostgreSQL for transaction
-management.
-Implemented JWT-based authentication and Redis caching for enhanced security and
-performance.
-Used TypeORM for seamless database interaction and designed flexible GraphQL schemas.</p>
-            <div className="mt-2">
-              <a href="https://github.com/RachitSrivastava12/PriceTrackerApi" className="text-blue-400 hover:underline">GitHub</a>
-            </div>
-          </div>
-          <div className="mb-6">
-            <h4 className="font-semibold">Course Management Api</h4>
-            <p className="mb-2">Build a GraphQL API with TypeScript, Node.js, and Apollo Server.
-Used MongoDB for data storage with modular architecture.
-Added .env configuration and real-time logging with Morgan.</p>
-            <div className="mt-2">
-              <a href="https://github.com/RachitSrivastava12/CourseManagementApi" className="text-blue-400 hover:underline">GitHub</a>
-            </div>
-          </div>
+    <div className="mb-6">
+      <h4 className="font-semibold">The Blackboard</h4>
+      <p className="mb-2">Drawing app with save/export features built with custom tools and canvas.</p>
+      <div className="mt-2">
+        <a href="https://github.com/RachitSrivastava12/BNGYA" className="text-blue-400 hover:underline">GitHub</a>
+      </div>
+    </div>
 
-        </div>
-        
+    <div className="mb-6">
+      <h4 className="font-semibold">Portfolio Builder</h4>
+      <p className="mb-2">App to auto-generate portfolios from user inputs and templates.</p>
+      <div className="mt-2">
+        <a href="https://github.com/RachitSrivastava12/BYP" className="text-blue-400 hover:underline">GitHub</a>
+      </div>
+    </div>
 
-        
-      ),
+    <div className="mb-6">
+      <h4 className="font-semibold">Customer Support Automation</h4>
+      <p className="mb-2">Automated customer support system using Node.js, MongoDB, GraphQL, and Dialogflow.</p>
+      <div className="mt-2">
+        <a href="https://github.com/RachitSrivastava12/AutomateCustomer" className="text-blue-400 hover:underline">GitHub</a>
+      </div>
+    </div>
+
+    <div className="mb-6">
+      <h4 className="font-semibold">Crypto Price Tracker</h4>
+      <p className="mb-2">Real-time tracker for cryptocurrency prices and market trends.</p>
+      <div className="mt-2">
+        <a href="https://github.com/RachitSrivastava12/Crypto-Price-Tracker" className="text-blue-400 hover:underline">GitHub</a>
+      </div>
+    </div>
+
+    <div className="mb-6">
+      <h4 className="font-semibold">Transaction Management API</h4>
+      <p className="mb-2">GraphQL API for transactions using TypeScript, PostgreSQL, Redis & JWT auth.</p>
+      <div className="mt-2">
+        <a href="https://github.com/RachitSrivastava12/PriceTrackerApi" className="text-blue-400 hover:underline">GitHub</a>
+      </div>
+    </div>
+
+    <div className="mb-6">
+      <h4 className="font-semibold">Course Management API</h4>
+      <p className="mb-2">Built a modular GraphQL API with MongoDB, Apollo Server, and logging tools.</p>
+      <div className="mt-2">
+        <a href="https://github.com/RachitSrivastava12/CourseManagementApi" className="text-blue-400 hover:underline">GitHub</a>
+      </div>
+    </div>
+
+    <div className="mb-6">
+      <h4 className="font-semibold">Rust CRUD App</h4>
+      <p className="mb-2">A basic CRUD API built with Rust.</p>
+      <a href="https://github.com/RachitSrivastava12/Rust-Crud" className="text-blue-400 hover:underline">Repo</a>
+    </div>
+
+    {/* Projects in Progress (WIP) */}
+    <h3 className="font-bold mb-4 mt-8">🚧 In Progress:</h3>
+
+    <div className="mb-6">
+      <h4 className="font-semibold"> Energy Trading DApp (WIP)</h4>
+      <p className="mb-2">Building a decentralized energy trading platform using smart contracts and Web3 infra.</p>
+      <a href="https://github.com/RachitSrivastava12/Depin-Energy-Marketplace" className="text-blue-400 hover:underline">Repo</a>
+    </div>
+
+    <div className="mb-6">
+      <h4 className="font-semibold"> Depin Referral System (WIP)</h4>
+      <p className="mb-2">Referral system for Depin protocols on Solana.</p>
+      <div className="mt-2 space-x-4">
+        <a href="https://solana-referral.vercel.app/" className="text-blue-400 hover:underline">Live</a>
+        <a href="https://github.com/RachitSrivastava12/SolanaReferral" className="text-blue-400 hover:underline">Repo</a>
+      </div>
+    </div>
+
+    <div className="mb-6">
+      <h4 className="font-semibold"> Ad Verification Platform (WIP)</h4>
+      <p className="mb-2">Platform to verify digital ads for transparency and legitimacy.</p>
+      <a href="https://ad-verify.vercel.app/" className="text-blue-400 hover:underline">Live</a>
+    </div>
+
+    <div className="mb-6">
+      <h4 className="font-semibold"> Portfolio (Live)</h4>
+      <p className="mb-2">My personal portfolio site showcasing skills, projects, and contact info.</p>
+      <a href="https://devport-joz2.vercel.app/" className="text-blue-400 hover:underline">Live</a>
+    </div>
+  </div>
+),
+
       'experience': (
         <div className="text-cyan-400">
           <h3 className="font-bold mb-4">Work Experience:</h3>
