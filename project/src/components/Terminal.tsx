@@ -174,7 +174,7 @@ const Terminal: React.FC = () => {
 <div className="mt-2 space-x-4">
       <a href="https://ad-verify.vercel.app/" className="text-blue-400 hover:underline">Live</a>
       <a href="https://github.com/RachitSrivastava12/Ad-Verify" className="text-blue-400 hover:underline">Repo</a>
-       
+       </div>
     </div>
 
     <div className="mb-6">
