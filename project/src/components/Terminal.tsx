@@ -86,32 +86,37 @@ const Terminal: React.FC = () => {
     <div className="mb-6">
       <h4 className="font-semibold">Solana Blockchain Explorer</h4>
       <p className="mb-2">Developed a Solana Explorer with real-time transaction and block data.</p>
-      <div className="mt-2">
-        <a href="https://github.com/RachitSrivastava12/SolanaExplorer" className="text-blue-400 hover:underline">GitHub</a>
+            <div className="mt-2 space-x-4">
+        <a href="https://solana-explorer-ten.vercel.app/" className="text-blue-400 hover:underline">Live</a>
+        <a href="https://github.com/RachitSrivastava12/SolanaExplorer" className="text-blue-400 hover:underline">Repo</a>
       </div>
     </div>
+
+<div className="mb-6">
+      <h4 className="font-semibold">Solana Blockchain Indexer</h4>
+      <p className="mb-2">Index solana data according to your preference of data</p>
+       <div className="mt-2 space-x-4">
+        <a href="https://solana-indexer-a7wc.vercel.app/" className="text-blue-400 hover:underline">Live</a>
+        <a href="https://github.com/RachitSrivastava12/Solana-Indexer" className="text-blue-400 hover:underline">Repo</a>
+      </div>
+    </div>
+
 
     <div className="mb-6">
       <h4 className="font-semibold">The Blackboard</h4>
       <p className="mb-2">Drawing app with save/export features built with custom tools and canvas.</p>
-      <div className="mt-2">
-        <a href="https://github.com/RachitSrivastava12/BNGYA" className="text-blue-400 hover:underline">GitHub</a>
+           <div className="mt-2 space-x-4">
+        <a href="https://whiteboard-taupe.vercel.app/" className="text-blue-400 hover:underline">Live</a>
+        <a href="https://github.com/RachitSrivastava12/BNGYA" className="text-blue-400 hover:underline">Repo</a>
       </div>
     </div>
 
-    <div className="mb-6">
-      <h4 className="font-semibold">Portfolio Builder</h4>
-      <p className="mb-2">App to auto-generate portfolios from user inputs and templates.</p>
-      <div className="mt-2">
-        <a href="https://github.com/RachitSrivastava12/BYP" className="text-blue-400 hover:underline">GitHub</a>
-      </div>
-    </div>
 
     <div className="mb-6">
       <h4 className="font-semibold">Customer Support Automation</h4>
       <p className="mb-2">Automated customer support system using Node.js, MongoDB, GraphQL, and Dialogflow.</p>
       <div className="mt-2">
-        <a href="https://github.com/RachitSrivastava12/AutomateCustomer" className="text-blue-400 hover:underline">GitHub</a>
+        <a href="https://github.com/RachitSrivastava12/AutomateCustomer" className="text-blue-400 hover:underline">Repo</a>
       </div>
     </div>
 
@@ -127,7 +132,7 @@ const Terminal: React.FC = () => {
       <h4 className="font-semibold">Transaction Management API</h4>
       <p className="mb-2">GraphQL API for transactions using TypeScript, PostgreSQL, Redis & JWT auth.</p>
       <div className="mt-2">
-        <a href="https://github.com/RachitSrivastava12/PriceTrackerApi" className="text-blue-400 hover:underline">GitHub</a>
+        <a href="https://github.com/RachitSrivastava12/Transaction-Management-Api" className="text-blue-400 hover:underline">GitHub</a>
       </div>
     </div>
 
@@ -166,7 +171,10 @@ const Terminal: React.FC = () => {
     <div className="mb-6">
       <h4 className="font-semibold"> Ad Verification Platform (WIP)</h4>
       <p className="mb-2">Platform to verify digital ads for transparency and legitimacy.</p>
+<div className="mt-2 space-x-4">
       <a href="https://ad-verify.vercel.app/" className="text-blue-400 hover:underline">Live</a>
+      <a href="https://github.com/RachitSrivastava12/Ad-Verify" className="text-blue-400 hover:underline">Repo</a>
+       
     </div>
 
     <div className="mb-6">
